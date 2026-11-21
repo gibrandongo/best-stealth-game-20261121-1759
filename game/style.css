@@ -1,0 +1,36 @@
+/* Gloam Archive — page chrome around the game canvas. */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0a0c14;
+  color: #d8cfae;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.stage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+}
+#game {
+  display: block;
+  box-sizing: content-box;
+  width: min(1280px, 96vw);
+  height: auto;
+  background: #14161f;
+  border: 2px solid #3d4356;
+  border-radius: 6px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  cursor: crosshair;
+}
+.foot {
+  margin: 0;
+  font-size: 13px;
+  color: #8a8271;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+}
